@@ -15,7 +15,7 @@ This document describes how this project collects, handles, and processes data.
 ## Third-Party Services
 - Server hosting services (https://intro-skipper.org/manifest.json) collect no sensitive data.
 - The data collected does not allow users to be identified.
-- The data is used to analyse the percentage of different Jellyfin Server versions.
+- The data is used to [analyse](https://github.com/intro-skipper/analytics) the percentage of different Jellyfin Server versions.
 
 <details>
 <summary>Example log entry</summary>
