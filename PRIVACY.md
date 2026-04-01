@@ -76,6 +76,9 @@ This document describes how this project collects, handles, and processes data.
 ### CDN jsDelivr
 Privacy policy: https://www.jsdelivr.com/terms/privacy-policy-jsdelivr-net/
 
+### Axiom:
+DPA: https://axiom.co/docs/legal/data-processing
+
 ### Cloudflare:
 DPA: https://www.cloudflare.com/cloudflare-customer-dpa/
 
