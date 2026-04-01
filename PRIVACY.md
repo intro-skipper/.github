@@ -76,6 +76,15 @@ This document describes how this project collects, handles, and processes data.
 ### CDN jsDelivr
 Privacy policy: https://www.jsdelivr.com/terms/privacy-policy-jsdelivr-net/
 
+### Cloudflare:
+DPA: https://www.cloudflare.com/cloudflare-customer-dpa/
+
+### Digitalocean:
+DPA: https://www.digitalocean.com/legal/data-processing-agreement/
+
+### Hetzner:
+DPA: https://www.hetzner.com/AV/DPA_en.pdf
+
 ## Changes to Privacy Policy
 - Users will be notified of any privacy policy updates
 - Changes will be documented in the project's changelog
@@ -83,4 +92,4 @@ Privacy policy: https://www.jsdelivr.com/terms/privacy-policy-jsdelivr-net/
 ## Contact
 For privacy concerns or questions, please open an issue in the project repository or contact the team via [Discord](https://discord.gg/AYZ7RJ3BuA)
 
-Last updated: 2025-11-15
+Last updated: 2026-04-01
