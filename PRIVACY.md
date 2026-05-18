@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**intro-skipper · Last updated: April 1, 2026**
+**intro-skipper · Last updated: May 18, 2026**
 
 ---
 
@@ -32,7 +32,7 @@ Even though the plugin does not collect personal data, you retain all rights gra
 
 ## Website Privacy Policy
 
-Applies to: `https://intro-skipper.org/manifest.json` and `https://editor.intro-skipper.org/`
+Applies to: `https://intro-skipper.org/manifest.json`
 
 ### Data Controller
 
@@ -40,37 +40,11 @@ intro-skipper is the data controller. Contact: [info@intro-skipper.org](mailto:i
 
 ### Personal Data We Collect
 
-We do not collect personal data. Web server logs are anonymised before storage — IP addresses are stripped prior to any log data being transmitted or retained.
-
-> **Note:** Anonymised log entries may still include technical metadata such as User-Agent strings (e.g. `Jellyfin-Server/10.10.6`), TLS details, and remote port numbers. While we do not treat these as personal data, we acknowledge that such metadata could theoretically be combined with external information to re-identify a user. We therefore minimise retention to 1 day and transmit logs only to our DPA-covered processor, Axiom.
-
-### Purposes of Processing
-
-Anonymised server logs are retained solely for technical diagnostics (e.g. detecting service outages, diagnosing redirect failures). No personal data is processed.
-
-### Legal Basis
-
-The collection of anonymised diagnostic logs is carried out on the basis of our legitimate interest (Article 6(1)(f) GDPR) in maintaining a reliable and secure service. No personal data is processed; accordingly no further legal basis is required for personal-data processing.
-
-### Data Sharing
-
-We do not share any data with third parties, except:
-
-- Anonymised log data is transmitted to and stored by [Axiom](https://axiom.co), a third-party log management service, under a Data Processing Agreement (DPA). Axiom processes this data solely for log storage and diagnostics on our behalf.
-- As required by applicable law.
-
-### International Transfers
-
-We do not collect personal data; GDPR international transfer rules therefore do not apply to personal data. Anonymised log data (containing no personal data) may be stored on servers outside the European Economic Area by Axiom under the terms of their DPA.
-
-### Data Retention
-
-Anonymised log data is retained for no more than 1 (one) day. As no personal data is collected, GDPR retention limits do not apply to these logs.
+Web server logs are disabled.
 
 ### Security Measures
 
 - All connections are protected with SSL/TLS encryption.
-- Log anonymisation (IP stripping) is applied before any data is stored or transmitted.
 
 ### Cookies
 
@@ -90,11 +64,6 @@ The following third-party infrastructure providers may receive limited technical
 
 jsDelivr may receive your IP address when serving static assets.
 Privacy policy: <https://www.jsdelivr.com/terms/privacy-policy-jsdelivr-net/>
-
-### Log Management — Axiom
-
-Axiom receives anonymised log data (no personal data) as described above, under a signed DPA.
-DPA: <https://axiom.co/docs/legal/data-processing>
 
 ### CDN / DDoS Protection — Cloudflare
 
