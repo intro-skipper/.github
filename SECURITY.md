@@ -60,11 +60,7 @@ Plugin settings are administrator-only by design, so a finding that requires an 
 
 ## Verifying a Release
 
-Release binaries are signed through [SignPath](https://signpath.io/). Starting with the Jellyfin 12 line, releases also ship an SPDX SBOM alongside the plugin archive, plus SLSA build-provenance and SBOM attestations, which can be checked with:
-
-```bash
-gh attestation verify IntroSkipper.dll --repo intro-skipper/intro-skipper
-```
+Release binaries are signed through [SignPath](https://signpath.io/). If GitHub attestations (for example, SLSA provenance and SBOM) are published for a release, you can verify them with `gh attestation verify PATH_TO_DOWNLOADED_FILE --repo intro-skipper/intro-skipper`.
 
 ---
 
