@@ -60,7 +60,9 @@ Plugin settings are administrator-only by design, so a finding that requires an 
 
 ## Verifying a Release
 
-Release binaries are signed through [SignPath](https://signpath.io/). If GitHub attestations (for example, SLSA provenance and SBOM) are published for a release, you can verify them with `gh attestation verify PATH_TO_DOWNLOADED_FILE --repo intro-skipper/intro-skipper`.
+Release binaries are signed through [SignPath](https://signpath.io/). Releases on the supported line also ship an SPDX SBOM alongside the plugin archive, and publish two GitHub attestations bound to `IntroSkipper.dll` — a SLSA build provenance attestation covering how the binary was built, and an SBOM attestation covering what is inside it.
+
+To check a download, extract `IntroSkipper.dll` from the release archive and run `gh attestation verify IntroSkipper.dll --repo intro-skipper/intro-skipper`. Both attestations are reported; add `--predicate-type` to check one in particular.
 
 ---
 
