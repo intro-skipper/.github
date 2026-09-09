@@ -1,6 +1,6 @@
 # Security Policy
 
-**intro-skipper · Last updated: September 7, 2026**
+**intro-skipper · Last updated: September 9, 2026**
 
 ---
 
@@ -30,11 +30,11 @@ intro-skipper is a volunteer-maintained project, so handling is best effort. We 
 
 The plugin tracks Jellyfin's release cadence. **Only the plugin line targeting the current stable Jellyfin release receives security fixes.** There is no long-term support line and no fixed support window measured in months or years — when Jellyfin promotes a new stable release, the plugin branch for the previous one stops receiving fixes.
 
-| Plugin branch | Targets          | Security fixes                                        |
-| ------------- | ---------------- | ----------------------------------------------------- |
-| `12.0`        | Jellyfin 12.0.x  | Yes, once Jellyfin 12.0 is the current stable release |
-| `10.11`       | Jellyfin 10.11.x | Yes, while it is the current stable release           |
-| `10.10`       | Jellyfin 10.10.x | No                                                    |
+| Plugin branch | Targets          | Security fixes                             |
+| ------------- | ---------------- | ------------------------------------------ |
+| `12.0`        | Jellyfin 12.0.x  | Yes — current stable release               |
+| `10.11`       | Jellyfin 10.11.x | No — superseded by Jellyfin 12.0           |
+| `10.10`       | Jellyfin 10.10.x | No                                         |
 
 If you run an older Jellyfin server, **upgrading Jellyfin is the remediation path** — fixes are not backported. The manifest at `https://intro-skipper.org/manifest.json` serves builds matched to the Jellyfin version that requests it, so an outdated server keeps being offered the last build made for it. That build is frozen, not maintained.
 
