@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**intro-skipper · Last updated: May 18, 2026**
+**intro-skipper · Last updated: October 25, 2026**
 
 ---
 
@@ -70,10 +70,10 @@ Privacy policy: <https://www.jsdelivr.com/terms/privacy-policy-jsdelivr-net/>
 Cloudflare may process your IP address and request metadata as part of DDoS protection and CDN services.
 DPA: <https://www.cloudflare.com/cloudflare-customer-dpa/>
 
-### Hosting — DigitalOcean
+### Hosting — Fyra Stack
 
-DigitalOcean hosts intro-skipper infrastructure and may process IP addresses at the network level.
-DPA: <https://www.digitalocean.com/legal/data-processing-agreement/>
+Fyra Stack hosts intro-skipper infrastructure and may process IP addresses at the network level.
+Privacy Statement: <https://fyrastack.com/privacy-statement>
 
 ### Hosting — Hetzner
 
